@@ -1,0 +1,81 @@
+/* Estilizando a página index */
+
+* {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.container .galeria {
+    display: flex;
+    flex-flow: column;
+}
+
+.titulo {
+    color: red;
+   text-align: center;
+}
+
+nav {
+    background-color: #212121;
+}
+
+#icone {
+    margin: 5px 0 0 10px;
+    background-color: transparent;
+}
+
+
+.img {
+    background-color: #212121;
+    padding: 50px;  
+    width: 450px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.galeria {
+    background-color: #212121;
+    padding: 10px; 
+    width: 450px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+#menu ul{
+    background-color: transparent;
+}
+
+#menu ul li {
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+#menu ul li a{
+    color: red;
+    text-decoration: none;
+    background-color: #212121;
+}
+
+#menu ul li a:hover{
+    color: rgb(243, 84, 84);
+    letter-spacing: 2px;
+}
+
+nav div, nav ul {
+    background-color: transparent;
+    }
+
+.fonte {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20;
+    color: red;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10%;
+}
